@@ -1,0 +1,8 @@
+-- CREATE NEW DATABASE WITH DEFAULT SETTINGS
+--      THIS IS ALL WE NEED AT THIS POINT
+USE [MASTER]
+create database [coffeenbooks];
+
+
+
+
