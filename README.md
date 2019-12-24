@@ -22,3 +22,7 @@ For more information, see [Install at link]:https://docs.docker.com/install/
 #### Note the SQL server name on Docker container, and use the following command to start the sql server
 
 > > \$ `Docker start <CONTAINER NAME>`
+
+#### Stop docker container
+
+> > \$ `Docker stop <CONTAINER NAME>`
