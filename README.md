@@ -9,7 +9,7 @@ For more information, see [Install at link]:https://docs.docker.com/install/
 
 #### Pull the latest image of SQL server
 
-> > \$ `docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=<STRONG_PASSWORD>' -p 1433:1433 -d mcr.microsoft.com/mssql/server:2017-latest`
+> > \$ `docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=<STRONG_PASSWORD>' -p 1433:1433 --name <SERVER_NAME> -d mcr.microsoft.com/mssql/server:2017-latest`
 
 #### Check SQL server container status
 
