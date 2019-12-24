@@ -41,7 +41,7 @@ bookRouter.get("/:id", (req, res) => {
         }
         // send records as a response
         res.setHeader("Content-Type", "application/json");
-        res.send(JSON.stringify(recordsets.recordset));
+        res.send(JSON.stringify(recordsets.recordset[0]));
         sql.close();
       }
     );
