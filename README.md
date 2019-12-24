@@ -26,3 +26,7 @@ For more information, see [Install at link]:https://docs.docker.com/install/
 #### Stop docker container
 
 > > \$ `Docker stop <CONTAINER NAME>`
+
+#### Remove docker container
+
+> > \$ `Docker rm -v <CONTAINER NAME>`
