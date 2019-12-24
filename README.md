@@ -1,7 +1,5 @@
 # node-apps
 
-This setup will require setting up Docker to run an instance of MSSQL
-
 ### Setup MSSQL server on MAC with dockers container - Prerequisites
 
 Docker Engine 1.8+ on any supported Linux distribution or Docker for Mac/Windows[Link to official site]:https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-docker?view=sql-server-ver15&pivots=cs1-bash.
@@ -23,4 +21,4 @@ For more information, see [Install at link]:https://docs.docker.com/install/
 
 #### Note the SQL server name on Docker container, and use the following command to start the sql server
 
-> > \$ `Docker start keen_rosalind`
+> > \$ `Docker start <CONTAINER NAME>`
