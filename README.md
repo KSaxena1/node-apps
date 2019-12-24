@@ -30,3 +30,7 @@ For more information, see [Install at link]:https://docs.docker.com/install/
 #### Remove docker container
 
 > > \$ `Docker rm -v <CONTAINER NAME>`
+
+### Database setup
+
+Run the script SQLsetup.sql on the newly created docker sql container.
