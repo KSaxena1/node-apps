@@ -27,7 +27,7 @@
 #### Query
 
 > > {
-> > coffee(id:"1001"){
+> > coffee(id:1001){
 
     coffeeName,
     pricePerCup
