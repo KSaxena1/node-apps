@@ -33,7 +33,9 @@ CREATE TABLE coffeenbooks.[dbo].[books]
 	,
 	[rating] [smallint] NULL
 	,
-	[qtyAtHand] [int] NOT NULL PRIMARY KEY CLUSTERED ([bookId] ASC) WITH (
+	[qtyAtHand] [int] NOT NULL 
+	,
+	[Price] [decimal](4, 2) NOT NULL PRIMARY KEY CLUSTERED ([bookId] ASC) WITH (
 		PAD_INDEX = OFF
 		, STATISTICS_NORECOMPUTE = OFF
 		, IGNORE_DUP_KEY = OFF
@@ -52,6 +54,7 @@ VALUES
 	, 'Herman Melville'
 	, 10
 	, 12
+	, 18.50
 	);
 
 INSERT INTO coffeenbooks.[dbo].books
@@ -62,6 +65,7 @@ VALUES
 	, 'Ima Scammer'
 	, 1
 	, 4
+	, 9.99
 	);
 
 INSERT INTO coffeenbooks.[dbo].books
@@ -72,6 +76,7 @@ VALUES
 	, 'Serenity Blissford'
 	, NULL
 	, 15
+	, 12.99
 	);
 
 INSERT INTO coffeenbooks.[dbo].books
@@ -82,6 +87,7 @@ VALUES
 	, 'Rodney Whodunit'
 	, 5
 	, 10
+	, 14.49
 	);
 
 INSERT INTO coffeenbooks.[dbo].books
@@ -92,6 +98,7 @@ VALUES
 	, 'D. Abugov'
 	, 10
 	, 15
+	, 21.00
 	);
 
 

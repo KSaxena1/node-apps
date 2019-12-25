@@ -18,7 +18,8 @@ const bookType = new GraphQLObjectType({
     title: { type: GraphQLString },
     author: { type: GraphQLString },
     rating: { type: GraphQLInt },
-    qtyAtHand: { type: GraphQLInt }
+    qtyAtHand: { type: GraphQLInt },
+    Price: { type: GraphQLFloat }
   }
 });
 
@@ -48,7 +49,7 @@ const RootQuery = new GraphQLObjectType({
     },
     coffee: {
       type: coffeeType,
-      args: { id: { type: GraphQLString } },
+      args: { id: { type: GraphQLInt } },
       resolve(parentValue, args) {
         //console.log(args.id);
         return axios
