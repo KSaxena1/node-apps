@@ -25,7 +25,7 @@ GO
 
 CREATE TABLE coffeenbooks.[dbo].[books]
 (
-	[bookId] [varchar](20) NOT NULL
+	[bookId] [int] NOT NULL
 	,
 	[title] [varchar](60) NULL
 	,
@@ -49,7 +49,7 @@ GO
 INSERT INTO coffeenbooks.[dbo].books
 VALUES
 	(
-		'A1111'
+		2001
 	, 'Moby Dick'
 	, 'Herman Melville'
 	, 10
@@ -60,7 +60,7 @@ VALUES
 INSERT INTO coffeenbooks.[dbo].books
 VALUES
 	(
-		'A2222'
+		2002
 	, 'Get Rich Really Fast'
 	, 'Ima Scammer'
 	, 1
@@ -71,7 +71,7 @@ VALUES
 INSERT INTO coffeenbooks.[dbo].books
 VALUES
 	(
-		'A3333'
+		2003
 	, 'Finding Inner Peace'
 	, 'Serenity Blissford'
 	, NULL
@@ -82,7 +82,7 @@ VALUES
 INSERT INTO coffeenbooks.[dbo].books
 VALUES
 	(
-		'A4444'
+		2004
 	, 'Great Mystery Stories'
 	, 'Rodney Whodunit'
 	, 5
@@ -93,7 +93,7 @@ VALUES
 INSERT INTO coffeenbooks.[dbo].books
 VALUES
 	(
-		'A5555'
+		2005
 	, 'Software Wizardry'
 	, 'D. Abugov'
 	, 10
